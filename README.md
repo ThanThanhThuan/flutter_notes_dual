@@ -2,15 +2,9 @@
 
 A new Flutter project.
 
-## Getting Started
+## Dual Storage Notes App
 
-This project is a starting point for a Flutter application.
+Notes App using Hive local storage and FireStore storage.
+Can use on-line or offline.
+<img width="610" height="1028" alt="image" src="https://github.com/user-attachments/assets/931d801e-fa51-4e7d-8485-119121ac5c17" />
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
