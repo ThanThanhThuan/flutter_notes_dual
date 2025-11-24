@@ -1,0 +1,133 @@
+# ------------------------------------------------------------------
+# Flutter / Dart
+# ------------------------------------------------------------------
+# The .dart_tool directory holds generated files such as the build
+# configuration.  It can be regenerated at any time.
+.dart_tool/
+
+# .packages is a generated symlink – never commit it.
+.packages
+
+# Build output directories
+build/
+flutter_assets/
+
+# Generated code in packages (you might not need this if you use a
+# package manager)
+# .packages
+
+# ------------------------------------------------------------------
+# Android
+# ------------------------------------------------------------------
+# Gradle caches
+.gradle/
+local.properties
+*.iml
+captures/
+*.log
+
+# Android Studio/IntelliJ project files
+.idea/
+*.ipr
+*.iws
+
+# Android build output
+app/build/
+app/debug/
+app/release/
+app/tmp/
+
+# -----------------------------------------------
+# Firebase/FlutterFire Configuration & Secrets
+# -----------------------------------------------
+
+# The generated Firebase options file (contains API keys/App IDs)
+# NOTE: While usually safe to commit, many teams prefer to keep this out of Git.
+# If you manage secrets via other means, uncomment this line:
+lib/firebase_options.dart
+
+# Android: Google Services config file
+# Contains API keys and project numbers. Should NOT be committed if it contains secrets.
+android/app/google-services.json
+
+# iOS/macOS: Plist config file
+# Contains API keys and project IDs. Should NOT be committed if it contains secrets.
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+
+# Web config (less common as it's often inlined in index.html or main.dart)
+web/firebase-config.js
+
+
+# Local Firebase configuration (do **not** commit secrets!)
+# The file names are specific to Android / iOS:
+#   * google-services.json – Android
+#   * GoogleService-Info.plist – iOS
+# They contain the Firebase project ID and public keys, but you might
+# keep them local if you use environment‑specific values.
+# If you want to keep them in the repo, comment the next two lines out.
+google-services.json
+GoogleService-Info.plist
+firebase.json
+
+# ------------------------------------------------------------------
+# iOS
+# ------------------------------------------------------------------
+# Xcode derived data and caches
+DerivedData/
+Pods/
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj/
+*.xcconfig
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# ------------------------------------------------------------------
+# Visual Studio Code
+# ------------------------------------------------------------------
+.vscode/
+
+# ------------------------------------------------------------------
+# OS‑specific junk
+# ------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
+
+# ------------------------------------------------------------------
+# Environment / secrets
+# ------------------------------------------------------------------
+# If you keep any local .env files or similar (e.g. for Firebase
+# API keys or other sensitive data) they should be ignored.
+.env
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+
+# ------------------------------------------------------------------
+# Misc
+# ------------------------------------------------------------------
+# Generated docs
+doc/
+docs/
+
+# Flutter coverage output
+coverage/
+
+# Firestore local cache / emulators
+# The Firestore emulator writes files to the `firebase_emulator` folder
+# by default; keep it out of the repo.
+firebase_emulator/
